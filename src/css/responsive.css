@@ -1,0 +1,132 @@
+@media(max-width:1024px){
+   #home .carousel-caption {
+      top: 45%;
+   }
+   #home .carousel-item {
+      height: 530px;
+   }
+   #home .carousel-caption {
+      left: 23%;
+   }.carousel-caption {
+      right: 0%;
+   }#home .carousel-item h2 {
+      margin: 6rem 0;
+   }
+   #home #down-icon {
+      left: 48%;
+   }
+   #contact .card p {
+      letter-spacing: 0;
+   }
+}
+@media(max-width:768px){
+   #home #down-icon {
+      top: 87%;
+      left: 47%;
+   }
+   #services .card-body {
+      padding: 3rem 0rem;
+   }
+   #contact .card p {
+      width: 100%;
+      margin-top: 0;
+   }
+   #home .carousel-item {
+      height: 550px;
+   }
+   #home .carousel-caption {
+      top: 40%;
+   }
+}
+@media(max-width:576px){
+   #home .carousel-item .btn {
+      padding: 1.5rem 4rem;
+   }
+   #home .carousel-caption {
+      top: 37%;
+   }
+   #home .carousel-item {
+      height: 460px;
+   }
+   #home #down-icon {
+      left: 46%;
+   }
+   #services .card {
+      margin-bottom: 2rem;
+   }
+   #services {
+      padding: 5rem 0;
+   }
+   #clients {
+      padding: 5rem 0;
+   }
+   #clients .mt-5, #clients .my-5 {
+      margin-top: 3rem !important;
+   }
+}
+@media(max-width:480px){
+   #home .carousel-item h2 {
+      font-size: 4rem;
+   }
+   #home .carousel-item .btn {
+      padding: 1rem 2rem;
+   }
+   #home #down-icon {
+      top: 87%;
+      left: 46%;
+   }
+   #clients .row.mt-5.pt-5.d-sm-none.s-md-block {
+      display: none;
+   }
+   #contact{
+      padding: 5rem 0;
+   }
+   #contact .col-md-6.mb-sm-5.mb-md-0 {
+      margin-bottom: 2rem;
+   }
+   #footer{
+      padding: 1rem 0;
+   }
+   #home .navbar-expand-lg{
+      padding-right: 15px;
+      padding-left: 15px;
+   }
+}
+@media(max-width:375px){
+   #home .carousel-item h2 {
+      font-size: 3rem;
+   }
+   #home .carousel-item .btn {
+      padding: 0.5rem 1.2rem;
+      margin: 0 0.5rem;
+   }
+   #home #down-icon {
+      top: 88%;
+      left: 48%;
+   }
+   #footer .social-link i {
+      width: 3rem;
+      height: 3rem;
+      padding: 0.5rem;
+   }
+}
+@media(max-width:360px){
+   #footer p{
+      font-size: 1.5rem;
+   }
+}
+@media(max-width:320px){
+   #home .carousel-item h2 {
+      font-size: 2.5rem;
+   }
+   #home .carousel-item .btn {
+      padding: 0.5rem 0.5rem;
+      margin: 0 0.5rem;
+      font-size: 1.2rem;
+      letter-spacing: 0.1rem;
+   }
+   #home .carousel-item {
+      height: 410px;
+   }
+}
+

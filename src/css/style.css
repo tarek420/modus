@@ -1,0 +1,258 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
+
+body {
+  font-family: 'Montserrat', sans-serif 'Crimson Text', serif; }
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333333e0;
+  letter-spacing: 0.1rem;
+  margin-bottom: 4rem; }
+
+p {
+  font-size: 1.8rem;
+  width: 80%;
+  margin: auto;
+  margin-top: auto;
+  color: #5b5a5ae0;
+  font-family: 'Crimson Text', serif;
+  font-weight: 400;
+  margin-top: 4rem; }
+
+section {
+  padding: 10rem 0; }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #333;
+  z-index: 999; }
+  .sticky a {
+    color: #fff; }
+
+.navbar {
+  padding: 1rem 0;
+  overflow: hidden;
+  background-color: #333;
+  transition: all 1s; }
+  .navbar .nav-link {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 1.5rem; }
+  .navbar .nav-link:hover {
+    color: #00C7FC; }
+
+#home {
+  padding: 0; }
+  #home .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 31%;
+    transform: translate(-15%, -50%); }
+  #home .carousel-item {
+    height: 600px; }
+    #home .carousel-item h5 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      letter-spacing: 0.2rem; }
+    #home .carousel-item h2 {
+      font-size: 5rem;
+      font-weight: 600;
+      color: #fff;
+      margin: 5rem 0;
+      letter-spacing: 0.2rem; }
+    #home .carousel-item .btn {
+      font-size: 1.5rem;
+      color: #fff;
+      border: 2px solid #fff;
+      padding: 1.5rem 6rem;
+      letter-spacing: 0.2rem;
+      margin: 0 1rem;
+      transition: 0.5s;
+      font-weight: 700; }
+    #home .carousel-item .btn:hover {
+      background: #00C7FC;
+      border: 2px solid #00C7FC; }
+  #home .carousel-img-1 {
+    background: linear-gradient(#131316e7, #131316e7), url("../img/slider1.jpg");
+    background-size: cover; }
+  #home .carousel-img-2 {
+    background: linear-gradient(#131316e7, #131316e7), url("../img/slider2.jpg");
+    background-size: cover; }
+  #home .carousel-img-3 {
+    background: linear-gradient(#131316e7, #131316e7), url("../img/slider3.jpg");
+    background-size: cover; }
+  #home #down-icon {
+    position: absolute;
+    top: 90%;
+    left: 49%; }
+
+#history {
+  background: #F4F4F4; }
+  #history h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333333e0;
+    letter-spacing: 0.1rem;
+    margin-bottom: 4rem; }
+  #history p {
+    font-size: 1.8rem;
+    width: 80%;
+    margin: auto;
+    color: #5b5a5ae0;
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    margin-top: 4rem; }
+
+#portfolio .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #04A3CE;
+  transition: all 1s; }
+
+#portfolio .mix:hover .overlay {
+  opacity: 0.9; }
+
+#portfolio .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-10%, -50%);
+  transition: all 1s;
+  text-align: center; }
+  #portfolio .text h3 {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 600; }
+  #portfolio .text p {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    color: #fff; }
+  #portfolio .text .social-link {
+    margin-top: 3rem;
+    text-align: center; }
+    #portfolio .text .social-link a {
+      color: #fff;
+      transition: all 1s; }
+    #portfolio .text .social-link i {
+      width: 4rem;
+      height: 4rem;
+      padding: 1rem;
+      border-radius: 50%; }
+    #portfolio .text .social-link a:hover i {
+      background: #333;
+      transition: all 1s; }
+
+#portfolio .portfolio-img-size {
+  width: 100%;
+  height: 40rem; }
+
+#portfolio .col-lg-3, #portfolio .col-md-3 {
+  padding-left: 0;
+  padding-right: 0; }
+
+#services {
+  background: #F4F4F4;
+  padding: 10rem 0; }
+  #services .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 8rem  4rem; }
+    #services .card-body h4 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-top: 2rem;
+      margin-bottom: 4rem;
+      color: #323232bf; }
+    #services .card-body p {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: #323232a1; }
+  #services .img-fluid {
+    border-bottom: 2px solid #00C7FC;
+    padding-bottom: 2rem; }
+
+#clients h5 {
+  font-size: 1.5rem;
+  color: #A7A7A7;
+  font-weight: 600;
+  font-style: italic;
+  margin-top: 2rem; }
+
+#clients .mt-5, #clients .my-5 {
+  margin-top: 8rem !important; }
+
+#contact {
+  background: linear-gradient(#101012d5, #101012d5), url("../img/slider2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10rem 0;
+  color: #fff; }
+  #contact .card {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 0.5rem;
+    background: #101012;
+    padding: 6rem 4rem; }
+    #contact .card h3 {
+      color: #fff; }
+    #contact .card p {
+      color: #eae6e6e8;
+      font-size: 1.5rem;
+      font-weight: 400;
+      padding: 0.5rem 0;
+      letter-spacing: 0.1rem; }
+  #contact label {
+    margin-bottom: 0.5rem;
+    float: left;
+    font-size: 1.5rem; }
+  #contact .form-control {
+    background-color: #0000;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border: none;
+    border-bottom: 1px solid #777373b3; }
+  #contact a {
+    color: aqua;
+    font-size: 1.5rem;
+    float: right;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    font-weight: 500; }
+
+#footer {
+  background: #07A1CA;
+  padding: 2rem 0; }
+  #footer p {
+    color: #fff;
+    display: inline; }
+  #footer .social-link {
+    text-align: center;
+    float: right; }
+    #footer .social-link a {
+      color: #fff;
+      transition: all 1s;
+      font-size: 2rem; }
+    #footer .social-link i {
+      width: 4rem;
+      height: 4rem;
+      padding: 1rem;
+      border-radius: 50%; }
+    #footer .social-link a:hover i {
+      background: #333;
+      transition: all 1s; }
